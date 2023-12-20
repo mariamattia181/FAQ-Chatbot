@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "faq_delivery",
+      "patterns": ["How long does delivery take?", "When will my order arrive?"],
+      "responses": ["Typically, orders arrive within 3-5 days."]
+    },
+    {
+      "tag": "faq_returns",
+      "patterns": ["Can I return an item?", "What's your return policy?","i want to return my order"],
+      "responses": ["You can return items within 3 days for a full refund. Please check our return policy page for more details."]
+    },
+    {
+      "tag": "faq_payment",
+      "patterns": ["Which payment methods do you accept?", "Are credit cards the only payment option?"],
+      "responses": ["We accept cash, credit cards, and PayPal. You can find the full list of accepted payment methods at checkout."]
+    },
+    {
+      "tag": "faq_account",
+      "patterns": ["How do I create an account?", "Is an account necessary to make a purchase?"],
+      "responses": ["You can create an account during the checkout process. An account is not mandatory, but it allows for order tracking and faster checkouts."]
+    },
+    {
+      "tag": "faq_contact",
+      "patterns": ["How can I contact customer support?", "Is there a phone number to reach you?"],
+      "responses": ["You can reach our customer support team via email. Additionally, you can find our phone number on the 'Contact Us' page."]
+    },
+    {
+      "tag": "faq_products",
+      "patterns": ["Do you offer [specific product/service]?", "What types of products do you sell?"],
+      "responses": ["Yes, we offer [Specific Product/Service]. Our range includes [Product Categories]. You can explore more on our website."]
+    },
+    {
+      "tag": "faq_shipping_cost",
+      "patterns": ["How much does shipping cost?", "Is shipping free?"],
+      "responses": ["Shipping costs vary based on location and order size. Orders above 700 LE qualify for free shipping."]
+    },
+    {
+      "tag": "faq_order_cancel",
+      "patterns": ["Can I cancel my order?", "What is your order cancellation policy?","i want to cancel my order"],
+      "responses": ["Orders can be canceled within 24 hours from the order placement. Please check your order confirmation email for cancellation instructions."]
+    },
+    {
+      "tag": "faq_out_of_stock",
+      "patterns": ["Is [Product Name] in stock?", "When will [Product Name] be available?"],
+      "responses": ["I'm sorry, [Product Name] is currently out of stock. Please check back later for availability or consider similar alternatives."]
+    },
+    {
+      "tag": "faq_privacy",
+      "patterns": ["How secure is my personal information?", "Do you share customer data with third parties?"],
+      "responses": ["We prioritize customer privacy and employ stringent security measures. Your information is not shared with third parties without consent. For details, check our privacy policy."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't quite catch that. Could you please rephrase or ask in a different way?"]
+    },
+    {
+      "tag": "faq_exchange_policy",
+      "patterns": ["Can I exchange an item?", "What is your exchange policy?"],
+      "responses": ["We offer exchanges within 2 days for items in their original condition. You can find detailed instructions on our exchange policy page."]
+    },
+    {
+      "tag": "faq_customer_service_hours",
+      "patterns": ["What are your customer service hours?", "When can I reach your support team?"],
+      "responses": ["Our customer service team is available from Sunday to Thursday 8:00 AM : 8:00 PM."]
+    },
+    {
+      "tag": "faq_order_modification",
+      "patterns": ["Can I modify my order after placing it?", "Is it possible to change my order?"],
+      "responses": ["Unfortunately, orders cannot be modified once they are placed. You can cancel the order and make another order."]
+    }
+  ]
+}
